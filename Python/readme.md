@@ -7,11 +7,11 @@ Ważne, aby skrypt, do którego chcesz zaimportować kpp, był w tym samym miejs
 Kod:
 ```python
 import kpp
-  
+```
 ####Korzystanie z funkcji
 Teraz wystarczy tylko odwołać się do modułu, a następnie korzystać z jego funkcji (poniżej znajdziesz listę funkcji).  
 Na przykład:
 ```python
 print(kpp.decToBin(10))
-
+```
 Wtedy otrzymamy przekonwertowaną liczbę dziesiętną 10, do systemu binarnego.
