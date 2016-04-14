@@ -15,3 +15,25 @@ Na przykład:
 print(kpp.decToBin(10))
 ```
 Wtedy otrzymamy przekonwertowaną liczbę dziesiętną 10, do systemu binarnego.
+
+###Lista funkcji
+
+####decToBin():
+Ta funkcja konwertuje liczbę w systemie dziesiętnym, do systemu binarnego.
+Wygląda tak:
+
+```python
+kpp.decToBin(liczba)
+```
+Gdzie:
+* liczba - jest liczbą całkowitą (int). W przeciwnym wypadku, interpreter wyświetli błąd.
+####decToHex():
+Ta funkcja konwertuje liczbę w systemie dziesiętnym, do systemu szesnastkowego.
+Wygląda tak:
+
+```python
+kpp.decToHex(liczba)
+```
+
+Gdzie:
+* liczba - jest liczbą całkowitą (int). W przeciwnym wypadku - błąd.
