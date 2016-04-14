@@ -27,6 +27,7 @@ kpp.decToBin(liczba)
 ```
 Gdzie:
 * liczba - jest liczbą całkowitą (int). W przeciwnym wypadku, interpreter wyświetli błąd.
+
 ####decToHex():
 Ta funkcja konwertuje liczbę w systemie dziesiętnym, do systemu szesnastkowego.
 Wygląda tak:
