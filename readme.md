@@ -1,5 +1,5 @@
 #Kandi++
-Oficjalny moduł klasy IIe z I LO im. A. Osuchowskiego w Cieszynie
+Oficjalny moduł klasy IIe z I LO im. A. Osuchowskiego w Cieszynie  
 Aktualna wersja: v0.1
 
 ##Po co i na co?  
