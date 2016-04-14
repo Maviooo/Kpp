@@ -18,6 +18,26 @@ Wtedy otrzymamy przekonwertowaną liczbę dziesiętną 10, do systemu binarnego.
 
 ##Lista funkcji
 
+###encrypt():
+Ta funkcja szyfruje podaną wiadomość szyfrem Cezara.
+Wygląda tak:
+```python
+kpp.encrypt(msg, k)
+```
+Gdzie:
+* msg - wiadomość do zakodowania
+* k - liczba o jaką ma zostać przesunięta wartość znaku w UNICODE (musi być <=125)
+
+###decrypt():
+Ta funkcja odszyfrowuje wiadomość zaszyfrowaną szyfrem Cezara (głowa boli od tego powtórzenia).
+Wygląda następująco:
+```python
+kpp.decrypt(msg, k)
+```
+Gdzie:
+* msg - zaszyfrowana wiadomość
+* k - liczba, o którą została przesunięta wartość znaku w UNICODE (musi być <=125)
+
 ###decToBin():
 Ta funkcja konwertuje liczbę w systemie dziesiętnym, do systemu binarnego.
 Wygląda tak:

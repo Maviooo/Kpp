@@ -1,5 +1,21 @@
 # Kanadi++
 # Oficjalny moduł klasy IIe
+def encrypt(msg, k):
+    zaszyfr = ''
+    for n in msg:
+        c = (ord(n)+k)%126
+        if c < 32:
+            c += 31
+        zaszyfr += chr(c)
+    return zaszyfr
+def decrypt(msg, k):
+    deszyfr = ''
+    for n in msg:
+        c = (ord(n)-k)%126
+        if c < 32:
+            c+=95
+        deszyfr += chr(c)
+    return deszyfr
 def decToBin(liczba):
     int(liczba)
     b = []
